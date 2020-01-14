@@ -6,10 +6,8 @@
   "masterIssueApproval": true,
   "packageRules": [
     {
-      "packageNames": [
-        "org.jetbrains.kotlinx:kotlinx-coroutines-core",
-        "org.jetbrains.kotlinx:kotlinx-serialization-runtime",
-        "org.jetbrains.kotlinx:kotlinx-coroutines-test"
+      "packagePatterns": [
+        "^org\\.jetbrains\\.kotlinx:"
       ],
       "versionScheme": "semver"
     }
