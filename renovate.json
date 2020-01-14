@@ -3,5 +3,8 @@
     "config:base"
   ],
   "masterIssue": true,
-  "masterIssueApproval": true
+  "masterIssueApproval": true,
+  "maven": {
+    "versionScheme": "semver"
+  }
 }
