@@ -3,5 +3,17 @@
     "config:base"
   ],
   "masterIssue": true,
-  "masterIssueApproval": true
+  "masterIssueApproval": true,
+  "packageRules": [
+    {
+      "packageNames": [
+        "org.jetbrains.kotlinx:kotlinx-coroutines-core",
+        "org.jetbrains.kotlinx:kotlinx-serialization-runtime",
+        "org.jetbrains.kotlinx:kotlinx-coroutines-test"
+      ],
+      "maven": {
+        "versionScheme": "semver"
+      }
+    }
+  ]
 }
